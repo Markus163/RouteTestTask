@@ -27,9 +27,7 @@ extension UIViewController {
         
         alertController.addAction(alertOk)
         alertController.addAction(alertCancel)
-        
         present(alertController, animated: true)
-        
     }
     
     func alertError(title: String, message: String) {
@@ -37,7 +35,6 @@ extension UIViewController {
         let alertOk = UIAlertAction(title: "OK", style: .default)
         
         alertController.addAction(alertOk)
-        
         present(alertController, animated: true)
     }
 }
