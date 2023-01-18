@@ -12,6 +12,7 @@
 		975797C22978571A00A1B225 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975797C12978571A00A1B225 /* ViewController.swift */; };
 		975797C72978571B00A1B225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 975797C62978571B00A1B225 /* Assets.xcassets */; };
 		975797CA2978571B00A1B225 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 975797C82978571B00A1B225 /* LaunchScreen.storyboard */; };
+		975797D229786B1100A1B225 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975797D129786B1100A1B225 /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		975797C62978571B00A1B225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		975797C92978571B00A1B225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		975797CB2978571B00A1B225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		975797D129786B1100A1B225 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +40,7 @@
 		975797B12978571A00A1B225 = {
 			isa = PBXGroup;
 			children = (
-				975797BC2978571A00A1B225 /* RouteTestTask(iOS-Junior) */,
+				975797BC2978571A00A1B225 /* TestTask(iOS-Junior) */,
 				975797BB2978571A00A1B225 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,17 +53,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		975797BC2978571A00A1B225 /* RouteTestTask(iOS-Junior) */ = {
+		975797BC2978571A00A1B225 /* TestTask(iOS-Junior) */ = {
 			isa = PBXGroup;
 			children = (
 				975797BD2978571A00A1B225 /* AppDelegate.swift */,
 				975797BF2978571A00A1B225 /* SceneDelegate.swift */,
 				975797C12978571A00A1B225 /* ViewController.swift */,
+				975797D129786B1100A1B225 /* Alert.swift */,
 				975797C62978571B00A1B225 /* Assets.xcassets */,
 				975797C82978571B00A1B225 /* LaunchScreen.storyboard */,
 				975797CB2978571B00A1B225 /* Info.plist */,
 			);
-			path = "RouteTestTask(iOS-Junior)";
+			path = "TestTask(iOS-Junior)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +139,7 @@
 			files = (
 				975797C22978571A00A1B225 /* ViewController.swift in Sources */,
 				975797BE2978571A00A1B225 /* AppDelegate.swift in Sources */,
+				975797D229786B1100A1B225 /* Alert.swift in Sources */,
 				975797C02978571A00A1B225 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
